@@ -81,3 +81,13 @@ body {
         position: static;
     }
 }
+
+.card-common {
+    box-shadow: 2px 5px 10px #999;   
+    transition: all .4s;
+}
+
+.card-common:hover {
+    box-shadow: 2px 5px 10px #999; 
+    transform:  translateY(-1px); 
+}
